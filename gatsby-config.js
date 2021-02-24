@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/home',
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
