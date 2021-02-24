@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/home',
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://https://freshchris01.github.io/home/`
+    siteUrl: `https://https://freshchris01.github.io/home/`,
     // Your Name
     name: 'Christian Diemers',
     // Main Site Title
