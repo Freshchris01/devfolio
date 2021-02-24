@@ -41,31 +41,42 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Freeleticls GmbH',
+        description: 'Backend Software Engineer Working Student, May 2019 - present',
+        link: 'https://freeletics.com',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+	name: 'Readnext',
+	description: 'Co-Founder, Software Engineer, July 2019 - Juli 2020',
+	link: 'https://www.linkedin.com/company/readnext/'
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Tech4Germany', 
+        description: 'Engineering Fellow, August 2018 - October 2018',
+        link: 'https://tech.4germany.org/',
       },
+      {
+        name: 'CQSE GmbH',
+        description: 'Full-Stack Development Working Student & Bachelor Thesis, November 2018 - May 2019',
+        link: 'https://www.cqse.eu/',
+      },
+      {
+        name: 'Birkle IT AG',
+        description: 'Full-Stack Development Intern, October 2017 - May 2018',
+        link: 'https://www.birkle-it.com/',
+      },
+
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Ruby on Rails, JavaScript (ES6+), Node.js, Express.js, React, Python',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, PostreSQL',
       },
       {
         name: 'Other',
@@ -73,6 +84,13 @@ module.exports = {
           'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
       },
     ],
+    education: [
+      {
+        name: 'Test',
+	description: 'Test description',
+        link: 'Test URL'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
