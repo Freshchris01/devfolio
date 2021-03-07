@@ -21,10 +21,10 @@ module.exports = {
     education: [{name: 'Technical University of Munich: M.Sc. Computer Science (expected: 2021)', description: 'Focus on software engineering, data science and efficient algorithms'}, {name: 'Technical University of Munich: B.Sc. Computer Science: Games Engineering', description: 'Projects with game development technologies (Unity3D, Android, Java, C++, DirectX, C)'}],
     projects: [
       {
-        name: 'TBA',
+        name: 'My Homepage',
         description:
-          'TBA',
-        link: 'TBA',
+          'The website you are currently visiting with basic information about things I did & created including a personal blog. It\'s built upon a template using GatsbyJS & React. Hosted on gh-pages with CI/CD powered by Github Actions.',
+        link: 'https://github.com/Freshchris01/home',
       },
       {
         name: 'TBA',

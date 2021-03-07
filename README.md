@@ -1,29 +1,14 @@
-# Devfolio
+# My Homepage
+Based on [devfolio](https://github.com/RyanFitzgerald/devfolio).
 
-![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg)
-
-Devfolio is a modern and production-ready personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS. Easily show off your projects, experience, and skills, as well as write blog posts showcasing your knowledge.
-
-Some of the features include:
-
-- Built with React on GatsbyJS (however, no React knowledge required)
+## Features
+- Built with React on GatsbyJS
 - Styled with Tailwind
-- Simple Configuration
-- Production-ready & Deployable in Seconds
-- Write Blog Posts in Markdown (with Syntax Highlighting)
+- Blog Posts in Markdown (with Syntax Highlighting)
 - Mobile Friendly
-- Extend and Customize as Needed
-- Blazing Fast 🙄
+- CI/CD with Github Actions and gh-pages
 
-**[Need help with the template or have suggestions? Reach out on Twitter anytime!](https://twitter.com/rfitzio)**
-
-## Demo
-
-For a live demo of the base template, [click here](https://elastic-meninsky-aa7c74.netlify.app/).
-
-For a live demo of a slightly customized version of the template (my own personal site), [click here](https://rfitz.io).
-
-## Contents
+# Contents
 
 - [Adding Your Information](#adding-your-information)
   - [General](#general)
@@ -38,11 +23,7 @@ For a live demo of a slightly customized version of the template (my own persona
 - [Contributing](#contributing)
 - [License](#license)
 
-## Adding Your Information
-
-To get started, either fork or clone the repo. Next, open `gatsby-config.js` which has configuration options under `siteMetadata`. The config comes with some default example content and code comments to make it easy to understand how to set it up. The following provides a more in-depth explanation of each section:
-
-### General
+## General
 
 | Option        | Description                  | Required |
 | ------------- | ---------------------------- | -------- |
