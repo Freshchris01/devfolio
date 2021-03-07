@@ -16,7 +16,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/christian-diemers`,
     // Content of the About Me section
-    about: `I am a Software Engineer living in Munich. Passionate about software engineering, cloud application development ,and entrepreneurship. During the past years, I have worked on many professional projects & products with millions of users (e.g. Freeletics) and spread knowledge about new technologies as part of the Microsoft Student Partner Program by organizing Hackathons, workshops ,and meetups.`,
+    about: `I am a Software Engineer living in Munich. Passionate about software engineering, cloud application development ,and entrepreneurship. During the past years, I have worked on many professional projects & products with millions of users (e.g. Freeletics) and spread knowledge about new technologies as part of the Microsoft Student Partner Program by organizing Hackathons, workshops, and meetups.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     education: [{name: 'Technical University of Munich: M.Sc. Computer Science (expected: 2021)', description: 'Focus on software engineering, data science and efficient algorithms'}, {name: 'Technical University of Munich: B.Sc. Computer Science: Games Engineering', description: 'Projects with game development technologies (Unity3D, Android, Java, C++, DirectX, C)'}],
     projects: [
