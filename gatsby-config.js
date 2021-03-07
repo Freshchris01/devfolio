@@ -8,35 +8,35 @@ module.exports = {
     // Main Site Title
     title: `Christian Diemers | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Engineer`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@diemersCodes`,
     // Optional: Github account URL
     github: `https://github.com/Freshchris01`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/christian-diemers`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a Software Engineer living in Munich. Passionate about software engineering, cloud application development ,and entrepreneurship. During the past years, I have worked on many professional projects & products with millions of users (e.g. Freeletics) and spread knowledge about new technologies as part of the Microsoft Student Partner Program by organizing Hackathons, workshops ,and meetups.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    education: [{name: 'test', description: 'A description'}],
+    education: [{name: 'Technical University of Munich: M.Sc. Computer Science (expected: 2021)', description: 'Focus on software engineering, data science and efficient algorithms'}, {name: 'Technical University of Munich: B.Sc. Computer Science: Games Engineering', description: 'Projects with game development technologies (Unity3D, Android, Java, C++, DirectX, C)'}],
     projects: [
       {
-        name: 'Devfolio',
+        name: 'TBA',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'TBA',
+        link: 'TBA',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'TBA',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'TBA',
+        link: 'TBA',
       },
       {
-        name: 'Another Cool Project',
+        name: 'TBA',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'TBA',
+        link: 'TBA',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -85,13 +85,7 @@ module.exports = {
           'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
       },
     ],
-    education: [
-      {
-        name: 'Test',
-	description: 'Test description',
-        link: 'Test URL'
-      }
-    ]
+    education: [{name: 'Technical University of Munich: M.Sc. Computer Science (expected: 2021)', description: 'Focus on software engineering, data science and efficient algorithms'}, {name: 'Technical University of Munich: B.Sc. Computer Science: Games Engineering', description: 'Projects with game development technologies (Unity3D, Android, Java, C++, DirectX, C)'}]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -12,7 +12,7 @@ const SectionEducation = ({ education }) => {
         <SummaryItem
           key={item.name}
           name={item.name}
-	  //description={item.description}
+	  description={item.description}
           link={item.link}
         />
       ))}
