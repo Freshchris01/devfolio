@@ -17,6 +17,19 @@ const Layout = ({ children }) => {
         viewBox="0 0 404 784"
       >
         <defs>
+          <linearGradient id="lgrad" x1="100%" y1="50%" x2="0%" y2="50%">
+            <stop
+              offset="30%"
+              style={{ stopColor: '#ffffffff', stopOpacity: 1 }}
+            />
+            <stop
+              offset="70%"
+              style={{ stopColor: '#ffffffff', stopOpacity: 0 }}
+            />
+          </linearGradient>
+          <mask id="fade" maskContentUnits="objectBoundingBox">
+            <rect width="1" height="1" fill="url(#lgrad)" />
+          </mask>
           <pattern
             id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
             x="0"
@@ -35,10 +48,12 @@ const Layout = ({ children }) => {
             />
           </pattern>
         </defs>
+
         <rect
           width="404"
           height="784"
           fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
+          mask="url(#fade)"
         />
       </svg>
       <div className={classes.wrapper}>{children}</div>
