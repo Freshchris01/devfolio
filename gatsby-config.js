@@ -34,15 +34,16 @@ module.exports = {
     ],
     projects: [
       {
-        name: 'My Homepage',
+        name: 'My Homepage - 2020',
         description:
-          "The website you are currently visiting with basic information about things I did & created including a personal blog. It's built upon a template using GatsbyJS & React. Hosted on gh-pages with CI/CD powered by Github Actions.",
+          "The website you are currently visiting with basic information about my professional experience and projects, including a personal blog. It's built upon a template using GatsbyJS & React. It is hosted on gh-pages with CI/CD powered by Github Actions.",
         link: 'https://github.com/Freshchris01/home',
       },
       {
-        name: 'TBA',
-        description: 'TBA',
-        link: 'TBA',
+        name: 'KoiCode - 2017',
+        description:
+          'Website to teach programming in a visual way. With this project, we won the Microsoft Imagine Cup Germany competition and participated in the world final in Seattle.',
+        link: 'blog/koicode',
       },
       {
         name: 'TBA',

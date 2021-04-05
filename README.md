@@ -1,7 +1,9 @@
 # My Homepage
+
 Based on [devfolio](https://github.com/RyanFitzgerald/devfolio).
 
 ## Features
+
 - Built with React on GatsbyJS
 - Styled with Tailwind
 - Blog Posts in Markdown (with Syntax Highlighting)
